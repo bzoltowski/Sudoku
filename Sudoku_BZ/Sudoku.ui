@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGraphicsView" name="Sudoku_Vertical_1">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>50</y>
+     <width>5</width>
+     <height>430</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="Sudoku_Vertical_2">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>50</y>
+     <width>5</width>
+     <height>430</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="Sudoku_Horizontal_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>430</width>
+     <height>5</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="Sudoku_Horizontal_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>335</y>
+     <width>430</width>
+     <height>5</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>431</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_1"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_4"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_5"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_6"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_7"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_8"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_9"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_10"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_11"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_12"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_13"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_14"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_15"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_16"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_17"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_18"/>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_19"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_20"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_21"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_22"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_23"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_24"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_25"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_26"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_27"/>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_28"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_29"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_30"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_31"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_32"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_33"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_34"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_35"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_36"/>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_37"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_38"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_39"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_40"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_41"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_42"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_43"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_44"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_45"/>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_46"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_47"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_48"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_49"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_50"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_51"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_52"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_53"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_54"/>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_55"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_56"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_57"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_58"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_59"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_60"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_61"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_62"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_63"/>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_64"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_65"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_66"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_67"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_68"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_69"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_70"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_71"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_72"/>
+      </item>
+     </layout>
+    </item>
+    <item row="8" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <property name="spacing">
+       <number>3</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_73"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_74"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_75"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_76"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_77"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_78"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_79"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_80"/>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit_81"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>50</y>
+     <width>131</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="Game_Layout">
+    <item>
+     <widget class="QPushButton" name="NewBtn">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Nowa Gra</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="EasyRadioBtn">
+      <property name="text">
+       <string>Łatwy Poziom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="AverageRadioBtn">
+      <property name="text">
+       <string>Średni Poziom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="HardRadioBtn">
+      <property name="text">
+       <string>Trudny Poziom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PromptBtn">
+      <property name="text">
+       <string>Podpowiedź</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ShowErrorBtn">
+      <property name="text">
+       <string>Pokaż Błędy</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SolveBtn">
+      <property name="text">
+       <string>Rozwiąż</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="Menu_Layout">
+    <item>
+     <widget class="QPushButton" name="PrintBtn">
+      <property name="text">
+       <string>Drukuj</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SaveBtn">
+      <property name="text">
+       <string>Zapis</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReadBtn">
+      <property name="text">
+       <string>Odczyt</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ResetBtn">
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
